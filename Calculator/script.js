@@ -10,7 +10,8 @@ function appendOperator(op) {
 
                     // Function to Clear Screen.
 function clearResult() {
-    document.getElementsById("result_01").value = result_01.value.toString().slice(0,0);
+    document.getElementById("result_01").value = "";
+    document.getElementById("result_02").value = "";
 }
 
                     // Functions to Calculate Result (Eval).
