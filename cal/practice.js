@@ -1,6 +1,6 @@
-let result1 = 'sin(5666)';
-let slice = result1.slice(4, -1);
-console.log(slice);
+// let result1 = 'sin(5666)';
+// let slice = result1.slice(4, -1);
+// console.log(slice);
 
 // let result1 = 'sin(56)';
 // let slice = (result1.slice(4, 6)) * (Math.PI / 180);
