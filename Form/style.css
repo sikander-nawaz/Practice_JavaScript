@@ -1,0 +1,46 @@
+.signup-box {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to top left, rgba(173, 194, 255, 0.3), rgba(78, 150, 209, 0.3));
+    padding: 20px;
+    margin: 0px auto;
+    position: relative;
+    top: 15%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.field > label {
+    display: block;
+}
+
+.field > input {
+    width: 100%;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+}
+
+.field {
+    margin: 10px 0px;
+}
+
+.field > input[type=submit] {
+    border: none;
+    background-color: rgb(40, 126, 232);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+footer > p {
+    text-align: center;
+}
+
+footer > P > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
