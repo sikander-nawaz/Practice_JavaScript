@@ -11,23 +11,21 @@
         <input type="text" id="name" placeholder="Enter Your Nane">
         <label for="email">Email</label>
         <input type="email" id="email" placeholder="Enter Your Email">
+        <input type="button" onclick=manageData() value="Save">
     </form>
 
 
     <script>
-        // let id = '';
-        //localStorage.clear()
         function manageData() {
           let name = document.getElementById('name').value;
           let email = document.getElementById('email').value;
-
-            if(names == null){
-                names = [];
-            }else {
-                names = JSON.parse(names);
+            let data = {
+                name: name,
+                email: email
             }
 
-            name.push(name);
+            localStorage.setItem('user', JSON.stringify(data));
+            name.innerHTML = '';
         }
     </script>
 </body>

@@ -72,3 +72,16 @@
 // }
 
 // prom(7);
+
+                    // Retrieve the First Elements Using the Rest Operator.
+
+let arr = [0, 1, 2, 3, 4, 5];
+
+arr.reverse();
+console.log(arr);           // [5, 4, 3, 2, 1, 0]
+
+let [ele5, ele4, ...remainingElement] = arr;
+
+console.log(ele5);          // 5
+console.log(ele4);          // 4
+console.log(remainingElement.reverse());        // [ 0, 1, 2, 3 ]
